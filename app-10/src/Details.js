@@ -22,8 +22,8 @@ class Details extends Component {
         return (
             <div>
                 <h2>{this.state.item.title}</h2>
-                <img width='200' src={this.state.item.image} />
-                <h4>{`Price: $${this.state.item.price}.00`}</h4>
+                <img alt='item' width='500' src={this.state.item.image}/>
+                <h4>Price: ${this.state.item.price}.00</h4>
             </div>
         )
     }

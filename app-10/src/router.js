@@ -3,7 +3,6 @@ import {Switch, Route} from 'react-router-dom'
 import Products from './Products'
 import Details from './Details'
 
-
 export default (
     <Switch>
         <Route exact path='/' component={Products}/>
