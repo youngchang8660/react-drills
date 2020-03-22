@@ -12,7 +12,7 @@ class App extends Component {
           <ul>
             <Link to='/'>Home</Link>
             <Link to='/signup'>Signup</Link>
-            <Link to='/details'>details</Link>
+            <Link to='/details'>Details</Link>
           </ul>
         </nav>
         {router}
@@ -20,6 +20,5 @@ class App extends Component {
     )
   }
 }
-
 
 export default App
